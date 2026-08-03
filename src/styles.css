@@ -69,6 +69,30 @@ main {
   padding-bottom: clamp(24px, 7vh, 72px);
 }
 
+.admin-link {
+  position: absolute;
+  top: 20px;
+  right: clamp(18px, 5vw, 64px);
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid rgba(255, 250, 241, 0.32);
+  border-radius: 8px;
+  background: rgba(20, 26, 19, 0.48);
+  color: #fffaf1;
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-decoration: none;
+  backdrop-filter: blur(10px);
+}
+
+.admin-link:hover {
+  background: rgba(255, 250, 241, 0.14);
+}
+
 .brand,
 .section-heading,
 .workflow div,

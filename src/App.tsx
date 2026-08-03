@@ -14,6 +14,7 @@ import {
   ShieldCheck,
   ShoppingBag,
   Sparkles,
+  Settings,
   UploadCloud,
 } from "lucide-react";
 import { FormEvent, useMemo, useState } from "react";
@@ -241,6 +242,10 @@ function App() {
         <div className="hero__media" aria-hidden="true">
           <img src={photos[0].imageUrl} alt="" />
         </div>
+        <a className="admin-link" href="https://ghost-proofing.vercel.app/login">
+          <Settings size={15} aria-hidden="true" />
+          Studio Admin
+        </a>
         <div className="hero__content">
           <div className="brand">
             <Camera size={28} aria-hidden="true" />
